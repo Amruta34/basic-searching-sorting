@@ -7,9 +7,7 @@ SelectionSort(arr,n)
         for j from i+1 to n-1 do
             if arr[j] < arr[minIndex] then
               minIndex = j
-        END for 
-       swap arr[i] with arr[minIndex]
-End For
+            swap arr[i] with arr[minIndex]
      return Arr
 END
 
